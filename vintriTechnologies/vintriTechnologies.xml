@@ -24,6 +24,18 @@
             <response code="400">Invalid voteData supplied</response>
             <response code="404">beerId not found</response> 
         </member>
+        <member name="M:vintriTechnologies.Controllers.BeerController.search(System.String)">
+            <summary>
+            Task 2: Add a REST API endpoint to retrieve a list of beers
+            </summary> 
+            <remarks>
+            sample
+            keyword:Trashy 
+            </remarks> 
+            <param name="keyword">keyword </param> 
+            <response code="200">Successful operation</response> 
+            <response code="404">Anomaly not found</response>  
+        </member>
         <member name="T:vintriTechnologies.Filters.ModelStateValidationFilter">
             <summary>
             Task 3: Add a custom Web API Action Filter Attribute

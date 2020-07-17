@@ -78,11 +78,9 @@ namespace vintriTechnologies.Controllers
 
         }
 
-        [HttpGet("search/{keyword}")]
         /// <summary>
         /// Task 2: Add a REST API endpoint to retrieve a list of beers
         /// </summary> 
-        [Description("Task 2: Add a REST API endpoint to retrieve a list of beers")]
         /// <remarks>
         /// sample
         /// keyword:Trashy 
@@ -90,6 +88,8 @@ namespace vintriTechnologies.Controllers
         /// <param name="keyword">keyword </param> 
         /// <response code="200">Successful operation</response> 
         /// <response code="404">Anomaly not found</response>  
+        [HttpGet("search/{keyword}")]
+        [Description("Task 2: Add a REST API endpoint to retrieve a list of beers")]
         public async Task<ActionResult> search(string keyword)
         {
             try
