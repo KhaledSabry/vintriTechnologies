@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vintriTechnologies", "vintriTechnologies\vintriTechnologies.csproj", "{C885A4E6-7237-4740-AC7D-19ECE369D27E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{BD6D4298-F08D-4109-955C-1D1C4931F902}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C885A4E6-7237-4740-AC7D-19ECE369D27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C885A4E6-7237-4740-AC7D-19ECE369D27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C885A4E6-7237-4740-AC7D-19ECE369D27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C885A4E6-7237-4740-AC7D-19ECE369D27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD6D4298-F08D-4109-955C-1D1C4931F902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6D4298-F08D-4109-955C-1D1C4931F902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6D4298-F08D-4109-955C-1D1C4931F902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6D4298-F08D-4109-955C-1D1C4931F902}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1273872-FD51-4FD1-A3B1-B02976AD90B3}
+	EndGlobalSection
+EndGlobal

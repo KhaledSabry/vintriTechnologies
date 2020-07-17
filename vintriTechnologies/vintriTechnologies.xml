@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>vintriTechnologies</name>
+    </assembly>
+    <members>
+        <member name="M:vintriTechnologies.Controllers.BeerController.clearJsonData">
+             <summary>
+            to clear the Json file - just for testing purpuse 
+             </summary> 
+        </member>
+        <member name="M:vintriTechnologies.Controllers.BeerController.Rate(System.Int32,vintriTechnologies.Model.VoteModel)">
+            <summary>
+            Task 1: REST API endpoint to allow a user to add a rating to a beer.
+            </summary> 
+            <remarks>
+            sample
+            beerId:3
+            voteData: {"username":"username","rating":4,"comments":"some comments"}
+            </remarks> 
+            <param name="beerId">beer Id  </param>
+            <param name="voteData">voteData: json with properties: username, rating, comments.  </param>
+            <response code="200">Successful operation</response>
+            <response code="400">Invalid voteData supplied</response>
+            <response code="404">beerId not found</response> 
+        </member>
+        <member name="T:vintriTechnologies.Filters.ModelStateValidationFilter">
+            <summary>
+            Task 3: Add a custom Web API Action Filter Attribute
+            </summary>
+        </member>
+    </members>
+</doc>
